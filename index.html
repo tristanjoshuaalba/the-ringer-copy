@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE RINGER</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora|Raleway:800,900" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+
+	<style>
+		.site-logo{
+			width: 220px;
+			margin-right: 5%;
+			margin-left: 5%;
+		}
+		.navbar-brand{
+			margin-left:7%;
+			margin-right:4%;
+		}
+		.collapse{
+			margin-right:7%;
+		}
+
+		.a{
+			color:red;
+		}
+
+		.content-link{
+			color:#429E62;
+		}
+		.content-title{
+			color:#3B3B3B;
+		}
+
+		.content-text{
+			color:#7D7D7D;
+
+		}
+
+		.content-emphasis{
+			color:#429E62;
+
+		}
+
+		.content-author{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 800;
+		}
+
+		p{
+			font-family: 'Lora', serif;
+			font-size: 95%;
+		}
+
+		h1,h3,h5{
+			font-family: 'Raleway', sans-serif;
+			font-weight: 900;
+		}
+
+		h6{
+			color:white;
+			font-size:90%;
+		}
+
+		.content-title:hover{
+			color:#429E62;
+		}
+
+		h3:hover{
+			color:#429E62;
+		}
+
+		a:hover{
+			color:#7D7D7D;
+			text-decoration: none;
+		}
+
+		li{
+			margin-right:2px;
+		}
+
+		.content-extra{
+			margin-left:3%;
+			margin-right:2%;
+			margin-top:5%;
+			margin-bottom:5%;
+			background-color:#F5F5F5; 
+			border:none;
+		}
+
+		.content-title-extra{
+			font-size:90%;
+
+		}
+
+		.content-title-extra:hover{
+			color:#429E62;
+		}
+
+		.content-body-extra{
+			margin-top:7%;
+			padding:0;
+		}
+
+		.site-logo-footer{
+			margin-top:1%;
+			margin-left:0%;
+		}
+
+		.footer-links:hover{
+			color:#429E62;
+		}
+
+
+	</style>
+
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black; font-weight: 600;">
+  <a class="navbar-brand" href="#"><img src="site-logo.png" class="site-logo"></img></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" href="#" style="color:white">NBA <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:white">NFL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:white">MOVIES</a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="#" style="color:white">FEATURES</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" style="color:white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PODCAST <i class="fas fa-sort-down" style="color:#429E62"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Bill Simons Podcast</a>
+          <a class="dropdown-item" href="#">Achievement Oriented</a>
+          <a class="dropdown-item" href="#">Against All Odds with Cousin Sal</a>
+          <a class="dropdown-item" href="#">Bachelor Party</a>
+          <a class="dropdown-item" href="#">The Big Picture</a>
+          <a class="dropdown-item" href="#">Binge Mode</a>
+          <a class="dropdown-item" href="#">Channel 33</a>
+           <a class="dropdown-item" href="#">Damage Control</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">ALL PODCASTS</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:white">SHOP</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" style="color:white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MORE <i class="fas fa-sort-down" style="color:#429E62"></i>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Bill Simons</a>
+          <a class="dropdown-item" href="#">Tech</a>
+          <a class="dropdown-item" href="#">Pop Culture</a>
+          <a class="dropdown-item" href="#">TV</a>
+          <a class="dropdown-item" href="#">Music</a>
+          <a class="dropdown-item" href="#">MLB</a>
+          <a class="dropdown-item" href="#">College Football</a>
+          <a class="dropdown-item" href="#">Soccer</a>
+          <a class="dropdown-item" href="#">Politics</a>
+          <a class="dropdown-item" href="#">Video</a>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-0 mt-2 mt-lg-0 social-links">
+	  <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#429E62"><i class="fab fa-facebook-f"></i>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#429E62"><i class="fab fa-twitter"></i></a> 
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="#" style="color:#429E62"><i class="fab fa-youtube"></i></a> 
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-0 ml-3 mt-2 mt-lg-0 social-links">
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color:white"><i class="fas fa-search"></i></a> 
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<!-- FIRST GRID ROW -->
+<div class="container" style="padding:2%">
+<div class="row">
+		<div class="col-lg-6 col-sm-6 mt-2">
+		<figure class="figure">
+		  <img src="https://cdn.vox-cdn.com/thumbor/SsKLZdEafZ8eAqZUUtR6mGg8hv0=/0x0:3200x1800/1200x900/filters:focal(1312x193:1824x705):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61546181/1__5_.0.jpg" class="figure-img img-fluid rounded" alt="GOLF">
+		  <figcaption class="figure-caption" style="color:#429E62; font-size:80%">GOLF</figcaption>
+		</figure>
+		</div>
+
+		<div class="col-lg-3 col-sm-6 mt-2">
+				<div class="card" style="width: 100%; border: solid white 0;">
+				  <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/ypO-WkzXdMGafPHGnL6mDnlNRrk=/0x0:3000x2000/700x394/filters:focal(1333x224:1813x704):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61555949/KyrieStayingInBoston_Getty_Ringer.0.jpg" alt="Card image cap">
+				  <div class="card-body" style="padding:0;padding-top:2%; ">
+				  	<a href="#" class="content-link">NBA</a>
+				    <h5 class="content-title">It Sure Sounds Like Kyrie Irving Intends to Stay in Boston for the Foreseeable Future</h5>
+				    <p> As teams like the Knicks begin to circle, the Celtics star made some pretty strong statements about his intentions for next summer </p>
+				    <p class="content-author"> By <a href="#" class="content-link">Paolo Uggetti</a></p>
+				  </div>
+				</div>
+		</div>
+
+		<div class="col-lg-3 col-sm-6 mt-2">
+				<div class="card" style="width: 100%; border: solid white 0">
+				  <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/LJbpHI45QDO_6koKVLdTeXSvvOk=/0x0:3000x2000/700x394/filters:focal(1260x760:1740x1240):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61546923/WorstTeamsProblems_Getty_Ringer.0.jpg" alt="Card image cap">
+				  <div class="card-body" style="padding:0;padding-top:2%; ">
+				  	<a href="#" class="content-link">NFL</a>
+				    <h5 class="content-title">The Biggest Problems Facing the NFL’s 0-3 Teams</h5>
+				    <p> The Cardinals, Texans, and Raiders aren’t doomed, but they have a lot of work to do </p>
+				    <p class="content-author"> By <a href="#" class="content-link">Danny Kelly</a></p>
+				  </div>
+				</div>
+		</div>
+</div>
+
+<!-- SECOND GRID ROW -->
+
+<div class="row">
+		<div class="col-lg-6 col-sm-6 mt-2">
+
+		<h1 class="content-title"> The Greatest Game Ever Played: Revisiting Patrick Reed and Rory McIlroy’s 2016 Ryder Cup Showdown </h1>
+		<p> The final round at Hazeltine, when a golf tournament turned into a playground basketball game and two of the sport’s ascendant talents trash-talked, finger-wagged, crowd-shushed, and electrified the world, all while playing the round of their lives</p>
+		<p class="content-author"> By <a href="#" class="content-link">Megan Schuster </a> </p>
+		</div>
+
+		<div class="col-lg-3 col-sm-6 mt-2">
+		<hr style="border: solid black 0.5px;width:200%">
+				<div class="card" style="width: 100%; border: solid white 0;">
+				  <div class="card-body" style="padding:0;padding-top:2%; ">
+				  	<a href="#" class="content-link">NBA</a>
+				    <h5 class="content-title">Rewatching ‘Confirmation,’ a Film Both Ahead of and Out of Step With 2018</h5>
+				    <p> The HBO drama about the 1991 Anita Hill hearing was released in 2016—before both the election and the advent of #MeToo. It offers some revealing and difficult insights about our current moment. </p>
+				    <p class="content-author"> By <a href="#" class="content-link">Alison Herman </a></p>
+				  </div>
+				</div>
+		</div>
+
+		<div class="col-lg-3 col-sm-6 mt-2">
+		<hr style="border: solid rgba(256,256,256,0) 0.5px; width:100%">
+				<div class="card" style="width: 100%; border: solid white 0">
+				  <div class="card-body" style="padding:0;padding-top:2%; ">
+				  	<a href="#" class="content-link">NFL</a>
+				    <h5 class="content-title">A Reintroduction to Gordon Hayward</h5>
+				    <p> Does the max free agent the Celtics signed last summer still fit with their suddenly loaded roster? Hayward’s versatility will be the key to both his restart and Boston’s season. </p>
+				    <p class="content-author"> By <a href="#" class="content-link">Kevin O'Connor</a></p>
+				  </div>
+				</div>
+			</div>
+		</div>
+</div>
+
+<!-- PODCAST ALBUMS -->
+
+<div style="background-color:#F5F5F5; min-height:300px">
+	<div class="container">
+
+		<div style="float:left; width:30%; margin-top:4%">
+			<h3>The Ringer Podcast Network</h3>
+			<p>Sports. Pop Culture. Podcasts.</p>
+			<p class="content-author"><a href="#" class="content-link">ALL PODCASTS  <i class="fas fa-caret-right"></i></a></p>
+
+		</div>
+
+		<div class="card-group" style="display:inline block; width: 70%;">
+
+		  <div class="card content-extra">
+		    <img class="card-img-top" src="https://cdn.vox-cdn.com/uploads/chorus_image/image/56566829/3b1793866cbda863365c33206575c2b8f38d63de6eb9bc5aa37323a5fdfff333b107f6e3fb3c6dc7fc103d06614af5f262642393b04ea8616f6b436500816f52.1514992822.jpeg" alt="Card image cap">
+		    <div class="card-body content-body-extra">
+		      <h5 class="card-title content-title-extra">Tiffany Haddish on ‘Night School’ and Her Favorite Comedians</h5>
+		    </div>
+		  </div>
+
+
+		  <div class="card content-extra">
+		    <img class="card-img-top" src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/13164477/ryen_russillo_dual_threat_24__2_.jpg" alt="Card image cap">
+		    <div class="card-body content-body-extra">
+		      <h5 class="card-title content-title-extra">Joe Buck and the College Football Top 10 </h5>
+		    </div>
+		  </div>
+
+		  <div class="card content-extra">
+		    <img class="card-img-top" src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/13130645/Halloween_Unmasked_32_1.jpg" alt="Card image cap">
+		    <div class="card-body content-body-extra">
+		      <h5 class="card-title content-title-extra">Coming October 1: ‘Halloween Unmasked’</h5>
+		    </div>
+		  </div>
+
+		  <div class="card content-extra">
+		    <img class="card-img-top" src="https://cdn.vox-cdn.com/uploads/chorus_image/image/56428215/Against_All_Odds__No_Sponsor_.0.png" alt="Card image cap">
+		    <div class="card-body content-body-extra">
+		      <h5 class="card-title content-title-extra">NFL Division Favorites to Bet on, Week 4 Rapid-Fire Picks, and Hockey Props</h5> 
+		    </div>
+		  </div>
+
+		  <div class="card content-extra">
+		    <img class="card-img-top" src="https://cdn.vox-cdn.com/uploads/chorus_image/image/58110357/65e1038d9d3aafc41c1f9c142382c1f9927c8df8c987104e7e3b741e44e8191d6fdfc1fc71bc3f5cebb04f81b536681f72a43e61827c12ca7128b0883acf32c0.1514309095.jpeg" alt="Card image cap">
+		    <div class="card-body content-body-extra">
+		      <h5 class="card-title content-title-extra">Bachelor Nation Offseason Begins!</h5>
+		    </div>
+		  </div>
+
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+<!-- FOOTER PRIMARY  -->
+
+<div style="background-color:black; min-height:200px; padding-bottom:0;">
+	<div class="container" style="padding-top:1%">
+	
+		<div style="float:left; width:50%">
+			<img src="site-logo.png" class="site-logo site-logo-footer"></img>
+			<br><br>
+			
+			<h6><span class="footer-links"> Terms of Use </span><i class="fas fa-circle" style="width:7px"></i> <span class="footer-links">Privacy Policy</span> <i class="fas fa-circle" style="width:7px"></i> <span class="footer-links">Communications Preferences</span></h6>
+
+			<h6> <span class="footer-links">Contact</span> <i class="fas fa-circle" style="width:7px"></i> <span class="footer-links">Send Us a Tip</span></h6>
+			<br>
+		</div>
+
+		<div style="float:left; width:50%; text-align:right">
+			<img src="site-misc-logo.png" class="site-logo site-logo-footer" style="margin-right: 0"></img>
+			<br><br>
+			
+			<h6> <span class="footer-links">Advertise with Us </span></h6>
+			<h6> <span class="footer-links">Jobs @ The Ringer </span></h6>
+		</div>
+	</div>
+</div>
+
+<!-- FOOTER SECONDARY -->
+
+<div style="background-color:black; min-height:100px; margin-top:0">
+	<div class="container" style="margin-top:0">
+		<div style="float:left; width:50%">
+			<hr style="border: solid rgba(256,256,256,1) 0.5px; width:200%">
+			<h6> All Systems Operational </h6>
+			<h6>Check out our status page for more details.</h6>
+			<br>
+		</div>
+
+		<div style="float:left; width:50%; text-align:right">	
+			<br>
+			<h6> Content ©2018 The Ringer All Rights Reserved</h6>
+		</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
